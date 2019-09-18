@@ -31,6 +31,7 @@ def self.genre_count
     if genre_count[style]
       genre_count[style] += 1
   end
+end 
 
   # genre = "rap"
   # genre_count[rap] = 1
