@@ -30,8 +30,12 @@ def self.genre_count
   @@genres.each do |style|
     if genre_count[style]
       genre_count[style] += 1
+    else
+      genre_count[style] = 1 
   end
-end 
+end
+
+
 
   # genre = "rap"
   # genre_count[rap] = 1
