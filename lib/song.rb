@@ -37,7 +37,17 @@ def self.genre_count
   return genre_count
 end
 
-
+def self.artist_count
+  artist_count = {}
+  @@artists.each do |name|
+    if artist_count[name]
+      artist_count[name] += 1
+    else
+      genre_count[style] = 1
+    end
+  end
+  return artist_count
+end 
 
   # genre = "rap"
   # genre_count[rap] = 1
