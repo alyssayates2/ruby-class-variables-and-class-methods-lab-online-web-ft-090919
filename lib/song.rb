@@ -43,7 +43,7 @@ def self.artist_count
     if artist_count[name]
       artist_count[name] += 1
     else
-      artist_count[style] = 1
+      artist_count[name] = 1
     end
   end
   return artist_count
