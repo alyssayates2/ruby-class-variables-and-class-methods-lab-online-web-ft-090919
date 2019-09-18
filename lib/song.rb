@@ -32,11 +32,11 @@ def self.genre_count
       genre_count[style] += 1
   end
 
-  genre = "rap"
-  genre_count[rap] = 1
-  @@genres.each do |style|
-    genre_count[style]
-
-  {"rap" => 1}
+  # genre = "rap"
+  # genre_count[rap] = 1
+  # @@genres.each do |style|
+  #   genre_count[style]
+  #
+  # {"rap" => 1}
 end
 end
