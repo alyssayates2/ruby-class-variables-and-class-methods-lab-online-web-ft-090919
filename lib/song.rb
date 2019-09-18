@@ -32,7 +32,9 @@ def self.genre_count
       genre_count[style] += 1
     else
       genre_count[style] = 1 
+    end 
   end
+  return genre_count 
 end
 
 
