@@ -34,7 +34,7 @@ def self.genre_count
       genre_count[style] = 1
     end
   end
-  return genre_count 
+  return genre_count
 end
 
 
@@ -45,5 +45,4 @@ end
   #   genre_count[style]
   #
   # {"rap" => 1}
-end
 end
